@@ -537,7 +537,7 @@ _:-ms-fullscreen, :root #top-section .title p {
 
 @media only screen and (min-width :1200px) {
     #top-section h1, #top-section .title h1 {
-        font-size: 60px;
+        font-size: 90px;
     }
 
     #top-section h2, #top-section .title h2 {
