@@ -1,0 +1,273 @@
+<html>
+<title>aslkdj</title>
+<body>
+
+			<center>
+			<style type="text/css">
+			
+.spoilertable{
+background-color:#282D2E;
+display:inline-block;
+width:100%;
+}
+table.tableall tbody tr td{
+padding:0px;
+}
+.spoilertable table tbody tr td{
+padding:0px;
+}
+.spoiler{
+background-color:#282D2E;
+color:#fff;
+display:inline-block;
+padding-top:7px;
+padding-bottom:7px;
+padding-left:0px;
+padding-right:0px;
+font-weight:bold;
+width:100%;
+text-align:center;
+}
+.spoiler:hover{
+background-color:#dfdfdf;
+}
+.text {
+display:none;
+}
+:target{
+display:inline;
+}
+table.tablas,table.tablas thead tr th, table.tablas tbody tr td{
+border:1px solid #ddd;
+vertical-align:top;
+}
+table.tablas tbody tr td{
+padding-top:0px;
+padding-bottom:0px;
+padding-left:2em;
+padding-right:0px;
+}
+table.tablas tbody tr td.Comandoes{
+padding-top:0px;
+padding-bottom:0px;
+padding-left:0px;
+padding-right:0px;
+}
+table.tablas thead tr th{
+text-align:center;
+padding:1em;
+background-color:#28343b;
+color:#fff;
+font-weight:bold;
+vertical-align:middle;
+}
+td.Comandoes{
+text-align:center;
+}
+span.descripcion{
+padding-left:1em;
+font-style: italic;
+color:#777;
+}
+
+</style>
+<br>
+<table class="tableall">
+<thead>
+<tr>
+<th><div class="spoilertable"><table><tbody><tr><td><span><a class="spoiler" href="#Creacion de una Ciudad"><center>__Creacion de una Ciudad__</center></a></span></td><td><span><a class="spoiler" href="#Nacion">__Nacion__</a></span></td><td><span><a class="spoiler" href="#Comandos Basicos">__Comandos Basicos__</a></span></td><td><span><a class="spoiler" href="#Comandos de Alcalde">__Comandos de Alcalde__</a></span></td><td><span><a class="spoiler" href="#Comandos para Plot">__Comandos para Plot__</a></span></td><td><span><a class="spoiler" href="#Comandos Towny">__Comandos Towny__</a></span></td><td><span><a class="spoiler" href="#Comandos Residentes">__Comandos Residentes__</a></span></td><td><span><a class="spoiler" href="#Extras Towny">__Extras Towny__</a></span></td></tr></tbody></table></div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<div class="text" id="Creacion de una Ciudad">
+<center>
+<table class="tablas">
+	<thead>
+		<tr>
+			<th style="width:1000px;">
+				¿Como crearla?</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="Comandoes">
+				<br><b>Para crear una town necesitas 5000 servidólares. ¡Alto ahí! Las cosas desde aquí no son gratis. Todavía necesitarás dinero para claimear chunks y pagar el mantenimiento diario.
+
+Una vez reunida la cantidad solo deberás poner /t new [nombre para la town] en una zona alejada de otras ciudades. Esto protegerá el chunk (fíjate con f3+g) en el que te encuentres.
+
+Cada día se recolectan impuestos a las towns, estos son de 200 servidólares dicho precio aumenta conforme la ciudad también lo haga, puedes ver cuando los recolectaran con /towny time , para que cuando esto pase deberás tener dinero en el banco de tu ciudad, donde también towny nos cobrará por las futuras expansiones, de lo contrario caerá en ruina, deposita dinero con el comando /t deposit [cantidad]
+
+Hay varias maneras de afrontar estos pagos, como el cobro de impuestos a los residentes de tú town, estos tienen varios modos, el porcentual y el normal, como su nombre indica, el porcentual cobra un porcentaje de servidólares a los residentes cada towny day; teniendo que por ejemplo, si lo tenemos en 10, cada towny day se cobrará el 10% del dinero total de los residentes ( de esta manera no se expulsa a la gente inactiva y hay diversos modos de evadir estos impuestos ). Con los impuestos normales, al tenerlo en 10, cada towny day cobrará 10 servidólares a todos los residentes, si hay residentes que no puedan afrontar este pago serán expulsados automáticamente.</b><br><br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</center>
+
+<div class="text" id="Nacion">
+
+<br>
+
+<center>
+<table class="tablas">
+	<thead>
+		<tr>
+			<th style="width:1000px;">
+				¿Como crearla?</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="Comandoes">
+				<br><b> Además de permitirnos crear towns o ciudades, el servidor nos da la posibilidad de crear una nación y unir las ciudades. Esta no es mas que un conjunto de towns con las mismas características de impuestos y con una capital. Las naciones aportan cierta cantidad de plots extras conforme el tamaño de naciones (140 es el número máximo de plots que se pueden otorgar) </b><br><br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+<table class="tablas">
+	<thead>
+		<tr>
+			<th style="width:150px;">Comando</th>
+			<th>Descripción, uso y variables</th>
+		</tr>
+	</thead>
+	<tbody>
+<tr>
+			<td class="Comandoes">
+		<br><b>
+/n list (x) </b>
+			<td>
+		<br>
+ Mira la lista de naciones.<br>
+		<br>
+				<span class="descripcion">
+Para ver más páginas cambia la "x" por un número.</span><br><br>
+						</td>
+						</td>
+		</tr>
+<tr>
+			<td class="Comandoes">
+		<br><b>
+/n new (nombre) </b>
+			<td>
+		<br>
+ Crea una nueva nacion. Te costara 10,000 servidolares.<br>
+		<br>
+				<span class="descripcion">
+Coloca el nombre que tu desees.</span><br><br>
+						</td>
+						</td>
+		</tr>
+
+		<tr>
+			<td class="Comandoes">
+<br><b> /n spawn</b>
+			<td>
+				<br>Accede al spawn de tu Nacion<br>
+				<br>
+			</td>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="Comandoes">
+<br><b> /n deposit  (cantidad)</b>
+			<td>
+				<br>Deposita una cantidad en el banco de la Nacion.<br>
+				<br>
+				<span class="descripcion">El dinero se toma como una donación.</span><br>
+				<br>
+			</td>
+			</td>
+		</tr>
+		
+<tr>
+			<td class="Comandoes">
+		<br><b>
+/n invite (Ciudad)  </b>
+			<td>
+		<br>
+Invita una ciudad a tu nacion.<br>
+<br>
+				<span class="descripcion">
+Solo puedes añadir ciudades que no sean parte de una nación.</span><br><br>
+			</td>
+			</td>
+</tr>
+
+<tr>
+			<td class="Comandoes">
+		<br><b>
+/t invite accept (nacion) </b>
+			<td>
+		<br>
+Acepta unirte a una nacion.<br>
+		<br>
+			</td>
+			</td>
+</tr>
+
+<tr>
+			<td class="Comandoes">
+		<br><b>
+/n leave</b>
+			<td>
+		<br>
+Abandona tu nacion.<br>
+		<br>
+				<span class="descripcion">
+Perderas del contador de plots, los plots que te ha brindado la nacion (Máximo 140).</span><br><br>
+			</td>
+			</td>
+</tr>
+
+<tr>
+			<td class="Comandoes">
+		<br><b>
+/n online</b>
+			<td>
+		<br>
+Observa que miembros de tu nacion estan en linea.<br>
+		<br>
+				<span class="descripcion">
+Solo puedes ver la lista si es que eres parte de una nacion.</span><br><br>
+						</td>
+						</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</center>
+
+<div class="text" id="Comandos Basicos">
+
+</div>
+<div class="text" id="Comandos de Alcalde">
+
+</div>
+<div class="text" id="Comandos para Plot">
+
+</div>
+<div class="text" id="Comandos Towny">
+
+</div>
+<div class="text" id="Comandos Residentes">
+
+</div>
+<div class="text" id="Extras Towny">
+
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+					
+					<br>
+					
+				</div>
+</body>
+</html>
